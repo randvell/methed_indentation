@@ -1,0 +1,7 @@
+.navigation__list {
+  padding: 0 0 0 25px;
+}
+
+.navigation__element:not(:last-child) {
+  margin-bottom: 10px;
+}

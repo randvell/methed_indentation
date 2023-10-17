@@ -1,0 +1,11 @@
+.summary__list {
+  padding: 0 0 25px 0;
+}
+
+.summary__element::before {
+  content: "—";
+}
+
+.summary__element:not(:last-child) {
+  margin-bottom: 10px;
+}
