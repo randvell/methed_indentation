@@ -11,9 +11,8 @@ html {
 
 body {
   position: relative;
-  overflow-x: hidden;
-  min-width: 320px;
-  min-height: 100vh;
+  width: 1440px;
+  margin: 0 auto;
 
   font-family: "Roboto Regular", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -41,19 +40,12 @@ svg {
   max-height: 100%;
 }
 
-button {
-  padding: 0;
-  cursor: pointer;
-  border: none;
-  background-color: transparent;
-}
-
 a {
   text-decoration: none;
   color: inherit;
 }
 
-ul {
+ol, ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -70,18 +62,4 @@ p,
 figure,
 fieldset {
   margin: 0;
-}
-
-iframe {
-  border: none;
-}
-
-.visually-hidden {
-  position: fixed;
-  transform: scale(0);
-}
-
-.section {
-  clear: both;
-  display: flow-root;
 }
