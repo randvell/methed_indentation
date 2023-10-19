@@ -11,8 +11,9 @@ html {
 
 body {
   position: relative;
-  width: 1440px;
-  margin: 0 auto;
+  overflow-x: hidden;
+  min-width: 320px;
+  min-height: 100vh;
 
   font-family: "Roboto Regular", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -55,11 +56,8 @@ h1, h2, h3, p, figure, fieldset {
   margin: 0;
 }
 
-h1,
-h2,
-h3,
-p,
-figure,
-fieldset {
-  margin: 0;
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 60px 150px 50px 150px;
 }
