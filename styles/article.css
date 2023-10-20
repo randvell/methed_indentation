@@ -1,25 +1,28 @@
-.block {
-  border-radius: 10px;
-  background: #f1f1f1;
-}
-
-.block__header {
-  padding-top: 25px;
-  margin-bottom: 20px;
-}
-
 .figcaption--border {
   border: black;
 }
 
 .article__section {
   padding: 0 30px;
-  margin-bottom: 50px;
 }
 
-.article__section.block {
-  padding-bottom: 25px;
+.article__section.article__section--block {
+  padding: 0
+}
+
+.article__block {
   padding-left: 45px;
+  padding-bottom: 25px;
+  border-radius: 10px;
+  background: #f1f1f1;
+}
+
+.article__section:not(:first-child) {
+  padding-top: 25px;
+}
+
+.article__section:not(:last-child) {
+  padding-bottom: 25px;
 }
 
 .article__header,
@@ -58,4 +61,8 @@
 
 .article__figure.article__figure--no-margin {
   margin-bottom: 0;
+}
+
+.article__paragraph {
+  max-width: 1080px;
 }

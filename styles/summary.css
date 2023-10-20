@@ -1,3 +1,8 @@
+.summary__header {
+  padding-top: 25px;
+  margin-bottom: 20px;
+}
+
 .summary__list {
   padding: 0 0 30px 0;
 }
