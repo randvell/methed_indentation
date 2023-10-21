@@ -1,5 +1,5 @@
-@import "./fonts.css";
 @import "./normalize.css";
+@import "./fonts.css";
 @import "./global.css";
 @import "./navigation.css";
 @import "./summary.css";
