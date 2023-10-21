@@ -73,7 +73,7 @@
   display: inline-block;
 }
 
-.article__wrapped-image {
+.article__image--wrapped {
   display: inline-block;
   max-width: 560px;
   margin-bottom: 0;
