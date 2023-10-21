@@ -57,7 +57,7 @@ h1, h2, h3, p, figure, fieldset {
 }
 
 .container {
+  padding: 32px 0;
   margin: 0 auto;
-  max-width: 1440px;
-  padding: 60px 150px 50px 150px;
+  max-width: 1140px;
 }

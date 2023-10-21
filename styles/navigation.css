@@ -1,5 +1,4 @@
 .navigation__header {
-  padding-top: 25px;
   margin-bottom: 20px;
 }
 
@@ -10,4 +9,8 @@
 
 .navigation__element:not(:last-child) {
   margin-bottom: 10px;
+}
+
+.navigation__link {
+  border-bottom: 2px black solid;
 }
