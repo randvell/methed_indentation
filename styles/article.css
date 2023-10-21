@@ -14,10 +14,17 @@
 
 .article__header,
 .article__paragraph:not(:last-child),
+.article__figcaption:not(:last-child),
+.article__image:not(:last-child),
+.section__header {
+  margin-bottom: 30px;
+}
+
+.article__header,
+.article__paragraph,
 .article__figcaption,
 .article__image,
 .section__header {
-  margin-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
 }

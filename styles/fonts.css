@@ -54,3 +54,11 @@
   color: #5e5e5e;
   text-align: left;
 }
+
+.article__bold {
+  font-weight: 700;
+}
+
+.article__cursive {
+  font-style: italic;
+}
